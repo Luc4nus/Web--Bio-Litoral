@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                           <!--FONT OWSOME-->
+    <script src="https://kit.fontawesome.com/90982e5cc4.js" crossorigin="anonymous"></script>
+                            <!--GOOGLE-FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:wght@700&display=swap" rel="stylesheet">
+                            <!--CUSTOM STYLING-->
+    <link rel="stylesheet" href="nav-styles.css">    
+    <title>OurNature</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Bio</span>Litoral</h1><!--el span separa las palabras para poder luego aplicar diferentes colores-->
+        </div>
+        <i class="fas fa-bars menu-toggle"></i><!--esto genera el simbolo de las tres barras-->
+        <ul class="nav"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Login</a></li>
+            <!--<li><a href="#">Sing out</a></li>
+            <li><a href="#">Login</a></li>-->
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i> <!--esto genera el simbolo de la personita-->
+                    OurNature
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i><!--esto genera el simbolo de la flecha-->
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        
+         </ul>
+
+    </header>
+
+<!--Page Wrapper-->
+<div class="page-wrapper">
+<!--Post slider-->
+    <div class="post-slider">
+        <h1 class="slider-title">What is Ibera</h1>
+        <i class="fas fa-chevron-left prev"></i> <!--flechas del slider-->
+        <i class="fas fa-chevron-right next"></i><!--flechas del slider-->
+
+        <div class="post-wrapper">
+            <div class="post">
+                <img src="img/rosete.jpg" alt="" class="slider-image">
+                <div class="post-info">
+                    <h4><a href="single.html">Enviroments and ecosistems</a></h4>
+                    <i class="far fa-user">  OurNature</i>
+                    &nbsp; <!--&nbsp; (Non-Breaking Space): Es una entidad de espacio en blanco que representa
+                         un espacio que no debe romperse en dos líneas.-->
+                    <i class="far fa-calendar">  Jan 29, 2024</i>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="img/ciervo.jpg" alt="" class="slider-image">
+                <div class="post-info">
+                    <h4><a href="single.html"> Flora and Fauna</a></h4>
+                    <i class="far fa-user">  OurNature</i>
+                    &nbsp;
+                    <i class="far fa-calendar">  Jan 29, 2024</i>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="img/mapa.jpg" alt="" class="slider-image">
+                <div class="post-info">
+                    <h4><a href="single.html">History of the Park</a></h4>
+                    <i class="far fa-user">  OurNature</i>
+                    &nbsp;
+                    <i class="far fa-calendar">  Jan 29, 2024</i>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="img/yacare-negro.jpg" alt="" class="slider-image">
+                <div class="post-info">
+                    <h4><a href="single.html">how to get to the park</a></h4>
+                    <i class="far fa-user">  OurNature</i>
+                    &nbsp;
+                    <i class="far fa-calendar">  Jan 29, 2024</i>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="img/esteros.webp" alt="" class="slider-image">
+                <div class="post-info">
+                    <h4><a href="single.html">ecosistems</a></h4>
+                    <i class="far fa-user">  OurNature</i>
+                    &nbsp;
+                    <i class="far fa-calendar">  Jan 29, 2024</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--// Page Wrapper-->
+
+<!--CONTENT-->
+<div class="content clearfix">
+    <!--MAIN-CONTENT-->
+    <div class="main-content">
+         <h2 class="recent-post-title">Recent News</h2>
+         <div class="post">
+            <img src="img/MONTE.jpg" alt="" class="post-image">
+            <div class="post-preview">
+                <h3><a href="post-uno.html">Ultimas Nocticias</a></h3>
+                <i class="far fa-user"> Our Nature</i>
+                &nbsp;
+                <i class="far fa-calendar"> Jan 30, 2024</i>
+                <p class="preview-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Eaque, voluptas tenetur. At minima ad odio quod 
+                    exercitationem illum veritatis corporis autem est,
+                     ab nemo vel harum placeat doloribus cum repellat.
+                </p>
+                <a href="post-uno.html" class="btn read-more"> Read More</a>
+            </div>
+         </div>
+
+         <div class="post">
+            <img src="img/ibera-marshes.jpg" alt="" class="post-image">
+            <div class="post-preview">
+                <h3><a href="post-uno.html">Ultimas Nocticias</a></h3>
+                <i class="far fa-user"> BioLitoral</i>
+                &nbsp;
+                <i class="far fa-calendar"> Jan 30, 2024</i>
+                <p class="preview-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Eaque, voluptas tenetur. At minima ad odio quod 
+                    exercitationem illum veritatis corporis autem est,
+                     ab nemo vel harum placeat doloribus cum repellat.
+                </p>
+                <a href="post-uno.html" class="btn read-more"> Read More</a>
+            </div>
+         </div>
+
+         <div class="post">
+            <img src="img/lancha-rio-Parana.jpg" alt="" class="post-image">
+            <div class="post-preview">
+                <h3><a href="post-uno.html">Ultimas Nocticias</a></h3>
+                <i class="far fa-user"> Our Nature</i>
+                &nbsp;
+                <i class="far fa-calendar"> Jan 30, 2024</i>
+                <p class="preview-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Eaque, voluptas tenetur. At minima ad odio quod 
+                    exercitationem illum veritatis corporis autem est,
+                     ab nemo vel harum placeat doloribus cum repellat.
+                </p>
+                <a href="post-uno.html" class="btn read-more"> Read More</a>
+            </div>
+         </div>
+    </div>
+    <!--// MAIN-CONTENT-->
+    <div class="side-bar">
+
+
+        <div class="section serch">
+            <h2 class="section-title">Serch</h2>
+            <form action="index.html" method="post">
+                <input type="text" name="serch-term" class="text-imput" placeholder="Serch...">    
+            </form>
+        </div>
+        
+        <div class="section-topics">
+            <h2 class="section-title">Topics</h2>
+            <ul>
+                <li><a href="#">Storks</a></li>
+                <li><a href="#">Egrets</a></li>
+                <li><a href="#">Herons</a></li>
+                <li><a href="#">Tyrants</a></li>
+                <li><a href="#">Ibis</a></li>
+                <li><a href="#">Ducks</a></li>
+                <li><a href="#">Birds of prey</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--// CONTENT-->
+
+<!--information-->
+
+</body>
+ <!--JQUEY-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!--Slick Carousel-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!--CUSTOM SCRIPT-->
+<script src="script.js"></script> 
+</html>
